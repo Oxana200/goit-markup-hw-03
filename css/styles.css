@@ -222,6 +222,7 @@ ol {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     line-height: 1.11;
+    margin-bottom: 8px;
 }
 
 
@@ -231,7 +232,6 @@ ol {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    margin-bottom: 8px;
 }
 
 
@@ -345,6 +345,7 @@ ol {
 }
 
 .link-logo-f{
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
@@ -358,7 +359,6 @@ ol {
 
 .logo-footer{
     color: #f4f4fd;
-    display: inline-block;
 }
 
 .describing-logo{
