@@ -130,17 +130,16 @@ ol {
 
 /*start-container*/
 
+.start{
+    background: #2e2f42;
+    padding: 188px 0;
+}
 
 .start-container{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.start{
-    background: #2e2f42;
-    padding: 188px 0;
 }
 
 .page-goal{
@@ -193,11 +192,12 @@ ol {
     width: 1px;
     height: 1px;
     margin: -1px;
-    padding: 0;
     border: 0;
-    clip: rect(0, 0, 0, 0);
-    overflow: hidden;
+    padding: 0;
     white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .about-us-list{
@@ -290,11 +290,13 @@ ol {
 
 /*offers-container*/
 
+.offers{
+    padding: 120px 0 120px 0;
+}
 
 .offers-container{
     display: flex;
     flex-direction: column;
-    padding-bottom: 107px;
 }
 
 .offer-list{
@@ -303,23 +305,27 @@ ol {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 8px;
-    padding: 32px 16px;
-    width: calc((100%-96)/6); 
+    column-gap: 24px;
+    row-gap: 48px;
 }
 
-.offers{ 
+.offer-item{
+    width: calc((100% - 48px) / 3);
+}
+
+.apps{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
+
+.offer{ 
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    padding-top: 32px;
-    padding-bottom: 8px;
-}
-
-.describing{
-    padding-bottom: 32px;
 }
 
 
@@ -347,6 +353,7 @@ ol {
     line-height: 1.17;
     letter-spacing: 0.03em;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logo-footer{
