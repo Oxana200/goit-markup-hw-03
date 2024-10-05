@@ -47,18 +47,20 @@ ol {
 
 /*header-container*/
 
+.header{
+    border-bottom: 1px solid #e7e9fc
+}
 
 .header-container{
     display: flex;
-    
 }
 
 .navigation-menu{
-    border-bottom: 1px solid #e7e9fc;
     height: 72px;
     background: #fff;
     display: flex;
     gap: 40px;
+    
 }
 
 .link-logo{ 
@@ -74,6 +76,7 @@ ol {
     justify-content: flex-start;
     flex-direction: row;
     gap: 0px;
+    margin-right: 76px;
 }
 
 .link-logo>span{
@@ -93,6 +96,7 @@ ol {
 .navigation-list{
     font-weight: 500;
     letter-spacing: 0.02em;
+    padding: 24px 0
 }
 
 .contacts{
@@ -133,11 +137,11 @@ ol {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 188px 0;
 }
 
 .start{
     background: #2e2f42;
+    padding: 188px 0;
 }
 
 .page-goal{
@@ -148,8 +152,7 @@ ol {
     text-align: center;
     color: #fff;
     margin-bottom: 32px;
-    height: 120px;
-    width: 496px;
+    max-width: 496px;
 }
 
 .order-button{
@@ -163,6 +166,7 @@ ol {
     border-radius: 4px;
     width: 169px;
     height: 56px;
+    border: none;
 }
 
 .order-button:hover {
