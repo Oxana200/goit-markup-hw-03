@@ -60,7 +60,7 @@ ol {
     background: #fff;
     display: flex;
     gap: 40px;
-    
+    align-items: center;
 }
 
 .link-logo{ 
@@ -164,9 +164,9 @@ ol {
     color: #fff;
     letter-spacing: 0.04em;
     border-radius: 4px;
-    width: 169px;
     height: 56px;
     border: none;
+    min-width: 169px;
 }
 
 .order-button:hover {
@@ -180,14 +180,13 @@ ol {
 
 /*about-us-container*/
 
+.advantages{
+    padding: 120px 0;
+}
+
 
 .container-list {
     display: flex;
-    padding-top: 120px;
-    padding-bottom: 120px;
-    padding-right: 156px;
-    padding-left: 156px;
-    width: calc((100%-72)/4);
 }
 
 .visually-hidden {
@@ -209,8 +208,12 @@ ol {
     justify-content: space-between;
     flex-wrap: nowrap;
     flex-direction: row;
-    gap: 20px;
+    gap: 24px;
     
+}
+
+.advantage-describing{
+    width: calc((100% - 72px) / 4)
 }
 
 .about-us{
@@ -224,12 +227,13 @@ ol {
 }
 
 
-.advantages{
+.advantage{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 
@@ -331,6 +335,7 @@ ol {
     background-color: #2e2f42;
     color:#f4f4fd;
     height: 312px;
+    padding: 100px 0;
 }
 
 .link-logo-f{
@@ -341,9 +346,8 @@ ol {
     color: #4d5ae5;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    padding-top: 100px;
-    padding-bottom: 16px;
-    padding-right: 156px;
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logo-footer{
