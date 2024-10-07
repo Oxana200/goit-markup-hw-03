@@ -33,7 +33,7 @@ ul,
 ol {
     list-style: none;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 0;
     padding-left: 0;
 }
 
@@ -53,14 +53,14 @@ ol {
 
 .header-container{
     display: flex;
+    align-items: center;
 }
 
 .navigation-menu{
-    height: 72px;
     background: #fff;
     display: flex;
-    gap: 40px;
     align-items: center;
+    margin-right: auto;
 }
 
 .link-logo{ 
@@ -89,13 +89,13 @@ ol {
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
-    margin-top: 24px;
 }
 
 .navigation-list{
     font-weight: 500;
     letter-spacing: 0.02em;
-    padding: 24px 0
+    padding: 24px 0;
+    display: block
 }
 
 .contacts{
@@ -108,8 +108,6 @@ ol {
     justify-content: flex-end;
     flex-direction: row;
     gap: 40px;
-    margin-top: 24px;
-    padding-left: 290px;
 }
 
 .navigation-contacts{
@@ -261,7 +259,6 @@ ol {
     flex-wrap: nowrap;
     flex-direction: row;
     gap: 24px;
-    padding: 0px 0px 32px 0px;
 }
 
 .team-card{
@@ -319,7 +316,6 @@ ol {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    margin-bottom: 8px;
 }
 
 .offer{ 
